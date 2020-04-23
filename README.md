@@ -5,14 +5,14 @@
 1. 다양한 유형의 Stream 데이터 적재
    - Json, csv, avro, binary, delimited(plain text)
 
-2.데이터 병렬 적재
+2. 데이터 병렬 적재
    - 개별 세그먼트 인스턴스에서 병렬 데이터 적재
 
 3. 다양한 옵션 지원
    - MAX_ROW : 한번에 처리하는 Max row 수 설정
-    - Default : 0
+       - Default : 0
    - MINIMAL_INTERVAL: POLL 최소시간 설정
-    - 최소 시간: 0.1 초, Default: 1초
+       - 최소 시간: 0.1 초, Default: 1초
 
 ## 사용 용도
 1. 센서 데이터와 같은 이벤트성의 스트림 메시지 고속 적재 (100만 TPS)
